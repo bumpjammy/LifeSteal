@@ -1,0 +1,14 @@
+name: LifeSteal
+version: '1.0'
+main: com.bumpjammy.lifesteal.LifeSteal
+api-version: 1.19
+authors: [ bumpjammy ]
+description: A basic lifesteal plugin
+website: sootmc.net
+commands:
+  withdrawheart:
+    description: "Withdraws a heart as an item"
+    usage: /withdrawheart
+  revive:
+    description: "Revives a player, giving them one of your hearts"
+    usage: /revive <player>
